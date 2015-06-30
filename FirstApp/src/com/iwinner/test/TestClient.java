@@ -17,6 +17,7 @@ public class  TestClient
 		 conf=conf.configure("/mycfg-mysql.xml");
 		 //conf.configure("/mycfg-mysql.xml");
 		 
+		 
 		 // High level Object
 		 SessionFactory sessionFactory=conf.buildSessionFactory();
 		 
