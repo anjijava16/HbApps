@@ -1,0 +1,20 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.iwinner.hb.dto.Employee" table="EmployeeHb_Ger">
+		<id name="no" type="integer" column="no">
+		
+			<generator class="hilo">
+				<param name="table">hi_value</param>
+				<param name="column">next_value</param>
+				<param name="max_lo">100</param>
+			</generator>
+		
+		</id>
+		<property name="fname" column="FIRSTNAME" />
+		<property name="lname" column="LASTNAME" />
+		<property name="mail" column="EMAIL" />
+	</class>
+</hibernate-mapping>

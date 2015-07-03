@@ -21,13 +21,5 @@
 		<!-- Annotations Based
 		<mapping class="Employee"/>
 		 -->
-	</session-factory>
-	<!-- 
-	#jdbc.driverClassName= oracle.jdbc.driver.OracleDriver
-#jdbc.dialect=org.hibernate.dialect.Oracle10gDialect
-#jdbc.databaseurl=jdbc:oracle:thin:@localhost:1521:xe
-#jdbc.username=admin
-#jdbc.password=admin
-
- --> 
+	</session-factory> 
 </hibernate-configuration>
